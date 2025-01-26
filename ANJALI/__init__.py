@@ -119,4 +119,3 @@ def get_readable_time(seconds: int) -> str:
 
 ANJALI = ANJALI()
 userbot = Userbot()
-
