@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/AnjaliOwnerBot"> <img src="https://img.shields.io/badge/Credit%20To%20Owner-darkred?style=for-the-badge" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://t.me/VENOM_PRATAP"> <img src="https://img.shields.io/badge/Credit%20To%20Owner-darkred?style=for-the-badge" width="220" height="38.45"/></a></p>
 
 <h2 align="center">
         ♡︎ ˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳] ♡
@@ -6,7 +6,7 @@
 
 <p align="middle"><b>ᴅᴇᴍᴏ ʙᴏᴛ</b><br>
 </p>
-<p align="center"> <a href="https://t.me/TheAnjaliMusicBot"><img src="https://img.shields.io/badge/🖤-Demo%20Bot-blue.svg?style=for-the-badge"></a></p>
+<p align="center"> <a href="https://t.me/VENOM_PRATAP"><img src="https://img.shields.io/badge/🖤-Demo%20Bot-blue.svg?style=for-the-badge"></a></p>
 
 
 <p align="center">
