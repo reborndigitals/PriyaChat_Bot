@@ -138,7 +138,7 @@ async def send_good_morning():
 async def restart_ANJALI():
     os.system(f"kill -9 {os.getpid()} && bash start")
 
-scheduler.add_job(send_good_night, trigger="cron", hour=22, minute=0)
+scheduler.add_job(send_good_night, trigger="cron", hour=23, minute=0)
 scheduler.add_job(send_good_morning, trigger="cron", hour=6, minute=0)
 scheduler.add_job(restart_ANJALI, trigger="cron", hour=0, minute=0)
 scheduler.add_job(restart_ANJALI, trigger="cron", hour=7, minute=0)
