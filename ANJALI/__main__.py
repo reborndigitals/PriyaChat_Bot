@@ -8,7 +8,7 @@ from ANJALI import ID_CHATBOT
 from pyrogram import idle
 from pyrogram.types import BotCommand
 from config import OWNER_ID
-from ANJALI import LOGGER, nexichat, userbot, load_clone_owners
+from ANJALI import LOGGER, ANJALI, userbot, load_clone_owners
 from ANJALI.modules import ALL_MODULES
 from ANJALI.modules.Clone import restart_bots
 from ANJALI.modules.Id_Clone import restart_idchatbots
@@ -17,7 +17,7 @@ async def anony_boot():
     try:
         await ANJALI.start()
         try:
-            await ANJALI.send_message(int(OWNER_ID), f"**{nexichat.mention} Is started✅**")
+            await ANJALI.send_message(int(OWNER_ID), f"**{ANJALI.mention} Is started✅**")
         except Exception as ex:
             LOGGER.info(f"@{ANJALI.username} Started, please start the bot from owner id.")
     
