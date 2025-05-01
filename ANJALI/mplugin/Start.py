@@ -346,7 +346,27 @@ async def repo(client: Client, m: Message):
 
 
 
+@Client.on_message(filters.command("ping"))
+async def ping(client: Client, message: Message):
+    bot_id = client.me.id
+    start = datetime.now()
+    UP, CPU, RAM, DISK = await bot_sys_stats()
+    loda = await message.reply_photo(
+        photo=random.choice(IMG),
+        caption="ᴘɪɴɢɪɴɢ...",
+    )
 
+    ms = (datetime.now() - start).microseconds / 1000
+    await loda.edit_text(
+        text=f"нey вαву!!\n{(await client.get_me()).mention} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve  αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**⋆ʟᴏᴠᴇ ᴡɪᴛʜ⋆ [ʏᴏ ᴍʏsᴛᴇʀɪᴏᴜs ™](https://t.me/{OWNER_USERNAME}) **||</b>",
+        reply_markup=InlineKeyboardMarkup(PNG_BTN),
+    )
+    if message.chat.type == ChatType.PRIVATE:
+        await add_served_cuser(bot_id, message.from_user.id)
+        await add_served_user(message.from_user.id)
+    else:
+        await add_served_cchat(bot_id, message.chat.id)
+        await add_served_chat(message.chat.id)
 
 
 @Client.on_message(filters.command("stats"))
