@@ -44,8 +44,8 @@ DEV_OP = [
 PNG_BTN = [
     [
         InlineKeyboardButton(
-            text="😍 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 😍",
-            url=f"https://t.me/{ANJALI.username}?startgroup=true",
+            text="😍 ᴋɪᴅɴᴀᴘ ᴍᴇ 😍",
+            url=f"https://t.me/CrushChat_RoBot?startgroup=true",
         ),
     ],
     [
