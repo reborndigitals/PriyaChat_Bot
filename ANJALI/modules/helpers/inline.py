@@ -8,7 +8,7 @@ START_BOT = [
     [
         InlineKeyboardButton(
             text="😍 ᴋɪᴅɴᴀᴘ ᴍᴇ 😍",
-            url=f"https://t.me/{ANJALI.username}?startgroup=true",
+            url=f"https://t.me/@CrushChat_bot?startgroup=true",
         ),
     ],
     [
