@@ -7,12 +7,12 @@ from ANJALI import OWNER, ANJALI
 START_BOT = [
     [
         InlineKeyboardButton(
-            text="😍 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 😍",
+            text="😍 ᴋɪᴅɴᴀᴘ ᴍᴇ 😍",
             url=f"https://t.me/{ANJALI.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
+        InlineKeyboardButton(text="🕹️ ᴜᴘᴅᴀᴛᴇ 🕹️", url=f"https://t.me/{UPDATE_CHNL}"),
         InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
@@ -23,7 +23,7 @@ START_BOT = [
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
+        InlineKeyboardButton(text="🕹️ ᴜᴘᴅᴀᴛᴇ 🕹️", url=f"https://t.me/{UPDATE_CHNL}"),
         InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
