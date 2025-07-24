@@ -3,6 +3,7 @@ import asyncio
 import importlib
 from flask import Flask
 import threading
+from threading import Thread
 import config
 from ANJALI import ID_CHATBOT
 from pyrogram import idle
@@ -71,7 +72,7 @@ async def anony_boot():
 
     await idle()
 
-
+'''
 app = Flask(__name__)
 @app.route('/')
 def home():
@@ -85,4 +86,16 @@ if __name__ == "__main__":
     flask_thread.start()
     asyncio.get_event_loop().run_until_complete(anony_boot())
     LOGGER.info("Stopping ANJALI Bot...")
+'''
+app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return "Bot is running on Render!"
+
+def run():
+    app.run(host='0.0.0.0', port=8080)
+
+def keep_alive():
+    t = Thread(target=run)
+    t.start()
