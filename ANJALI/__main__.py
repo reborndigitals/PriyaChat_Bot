@@ -3,7 +3,6 @@ import asyncio
 import importlib
 from flask import Flask
 import threading
-from threading import Thread
 import config
 from ANJALI import ID_CHATBOT
 from pyrogram import idle
