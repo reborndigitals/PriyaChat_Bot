@@ -8,7 +8,7 @@ START_BOT = [
     [
         InlineKeyboardButton(
             text="😍 ᴋɪᴅɴᴀᴘ ᴍᴇ 😍",
-            url=f"https://t.me/@CrushChat_bot?startgroup=true",
+            url=f"https://t.me/CrushChat_RoBot?startgroup=true",
         ),
     ],
     [
@@ -29,7 +29,7 @@ DEV_OP = [
     [
         InlineKeyboardButton(
             text="✦ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✦",
-            url=f"https://t.me/{ANJALI.username}?startgroup=true",
+            url=f"https://t.me/CrushChat_Robot?startgroup=true",
         ),
     ],
     [
