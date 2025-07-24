@@ -1,5 +1,5 @@
 {
-  "name": "ANJALI",
+  "name": "silukkuchat",
   "description": "A telegram bot",
   "logo": "https://envs.sh/IL_.jpg",
   "keywords": [
@@ -11,27 +11,27 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/abh628/PriyaChat_Bot",
+  "repository": "https://github.com/reborndigitals/PriyaChat_Bot",
   "env": {
     "BOT_TOKEN": {
       "description": "A Bot token from @BotFather",
       "required": true,
-      "value": ""
+      "value": "8337450173:AAFKT5ON1ze8HxJwhhYsf6PDC014-GBy0Ec"
     },
     "STRING_SESSION": {
       "description": "Fill Here A Pyrogram String Session For Id-Chatbot, Get it from: https://telegram.tools/session-string-generator#pyrogram,user (This is Optional, If you dont want id-chatbot you can skip this variable)",
       "required": false,
-      "value": ""
+      "value": "BQB6w5MAg7OPnjCwHL0Jfbv_Vu6rgKuUkfWbXHILJc9sfhd3ztKLOWRhIntVI146p4ZNjOInp90CwOSbPHy9GXFu63WMPTqgaPNgXQSCw8pBJ-XtYUVNLuWJQ2nucS9uFJEvlkOxBu11NUZihdePD608_xTtWFb7F9BQ7v8e-Rt2c2JOGTfbtzVtfBGdiNeT7UxsfNy8iOnzHMdsZ7pezx9MTvjCrrXo6XsTGsme0bS6P36kj8-s2I4tch89M0AAMogFSNhu3sM3BM-zVLdXI29i1rTIJ9kDAcx0MSrZ2U9R-iJ7hqwRqFhjGqReFxFuvY-PBOwrWi2LU_B9Jmfj1jlMQKdVZwAAAAHw82S9AQ"
     },
     "OWNER_ID": {
       "description": "Fill Here Your Owner User Id",
       "required": true,
-      "value": "1073815732"
+      "value": "1281282633"
     },
     "MONGO_URL": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
       "required": true,
-      "value": ""
+      "value": "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority"
     }
   }
 }
