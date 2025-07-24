@@ -172,7 +172,7 @@ import os
 import time
 import io
 
-@ANJALI.on_cmd(["ls"])
+@ANJALI.on_cmd(["lssssss"])
 async def ls(_, m: Message):
     "To list all files and folders."
 
@@ -246,7 +246,7 @@ async def ls(_, m: Message):
         await m.reply_text(msg)
 
 
-@ANJALI.on_cmd(["stttt", "rt"])
+@ANJALI.on_cmd(["start", "st"])
 async def start(_, m: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
@@ -328,7 +328,7 @@ async def help(client: ANJALI, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@ANJALI.on_cmd("rreepo")
+@ANJALI.on_cmd("rrepo")
 async def repo(_, m: Message):
     await m.reply_text(
         text=SOURCE_READ,
@@ -339,7 +339,7 @@ async def repo(_, m: Message):
 
 
 
-@ANJALI.on_message(filters.command("statsts"))
+@ANJALI.on_message(filters.command("sstatus"))
 async def stats(cli: Client, message: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
