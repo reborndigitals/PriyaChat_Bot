@@ -5,7 +5,7 @@ SPAM_CHATS = []
 
 
 @Client.on_message(
-    filters.command(["all", "mention", "tagall", "mentionall"], prefixes=["."])
+    filters.command(["all", "mention", "tagall", "mentionall", ".tag"], prefixes=["."])
 )
 async def tag_all_users(client, message):
     clone_id = (await client.get_me()).id
