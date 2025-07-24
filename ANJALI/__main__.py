@@ -1,7 +1,7 @@
 import sys
 import asyncio
 import importlib
-from flask import Flask
+#from flask import Flask
 import threading
 import config
 from ANJALI import ID_CHATBOT
@@ -68,10 +68,10 @@ async def anony_boot():
         LOGGER.error(f"Failed to set bot commands: {ex}")
     
     LOGGER.info(f"@{ANJALI.username} Started.")
-    
+
     await idle()
 
-
+'''
 app = Flask(__name__)
 @app.route('/')
 def home():
@@ -85,3 +85,4 @@ if __name__ == "__main__":
     flask_thread.start()
     asyncio.get_event_loop().run_until_complete(anony_boot())
     LOGGER.info("Stopping ANJALI Bot...")
+'''
