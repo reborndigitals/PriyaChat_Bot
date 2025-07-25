@@ -12,4 +12,4 @@ RUN pip3 install -U -r requirements.txt
 CMD bash start
 
 #render only
-#RUN python keep_alive.py
+RUN python keep_alive.py
