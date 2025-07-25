@@ -246,7 +246,7 @@ async def ls(_, m: Message):
         await m.reply_text(msg)
 
 
-@ANJALI.on_cmd(["start", "st"])
+@ANJALI.on_cmd(["xstart", "st"])
 async def start(_, m: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
@@ -310,7 +310,7 @@ async def start(_, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@ANJALI.on_cmd("help")
+@ANJALI.on_cmd("help", "start")
 async def help(client: ANJALI, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         hmm = await m.reply_photo(
@@ -328,7 +328,7 @@ async def help(client: ANJALI, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@ANJALI.on_cmd("rrepo")
+@ANJALI.on_cmd("xrepo")
 async def repo(_, m: Message):
     await m.reply_text(
         text=SOURCE_READ,
@@ -339,7 +339,7 @@ async def repo(_, m: Message):
 
 
 
-@ANJALI.on_message(filters.command("sstatus"))
+@ANJALI.on_message(filters.command("xstatus"))
 async def stats(cli: Client, message: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
