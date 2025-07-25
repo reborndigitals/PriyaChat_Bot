@@ -16,7 +16,7 @@
     "BOT_TOKEN": {
       "description": "A Bot token from @BotFather",
       "required": true,
-      "value": "7956556231:AAEgPQOQsvTqpFV5I6BuFBCcPn-z_RGaKgc"
+      "value": "8273429160:AAGCmQY2ww8ygR7Sg2Kt34Pijn36CJV1yZg"
     },
     "STRING_SESSION": {
       "description": "Fill Here A Pyrogram String Session For Id-Chatbot, Get it from: https://telegram.tools/session-string-generator#pyrogram,user (This is Optional, If you dont want id-chatbot you can skip this variable)",
