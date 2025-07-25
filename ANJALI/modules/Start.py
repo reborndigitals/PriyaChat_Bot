@@ -310,7 +310,7 @@ async def start(_, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@ANJALI.on_cmd("help", "start")
+@ANJALI.on_cmd("start")
 async def help(client: ANJALI, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         hmm = await m.reply_photo(
