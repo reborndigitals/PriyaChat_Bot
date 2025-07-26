@@ -20,8 +20,8 @@
     },
     "STRING_SESSION": {
       "description": "Fill Here A Pyrogram String Session For Id-Chatbot, Get it from: https://telegram.tools/session-string-generator#pyrogram,user (This is Optional, If you dont want id-chatbot you can skip this variable)",
-      "required": false,
-      "value": "BQB6w5MApuc7wvpp1dWv2vFHUNpLRoCWls8GG7xDWW01ZSqeCbPadwYpgIHdfUWrg1n_4W5_NFC5himNl3K92y8WdSIfX2rff_TbTMP_GBTenc1AH1tP8c71hDGsfXuh2AUXLbPoU2FIYPONKilXmtJUpIGIbfz4lEEmpF55hB9rGDSglbL9If43OhOuYviSBJy1ep3fOeIii4g8142yXrOc7raS7aqnAoO_xHlWC7PPMHh9c6QedIE5ZkjyIcLEh2SSMndz7cz2N_zJfsJHokFvRCs0wlpefC4JZV18aHV70e-dqVK_VN6-72W-7NJv068ZyvQU6C6JglAreGbapnDPUtj36wAAAAHtIoKoAQ"
+      "required": false, #apple cute string
+      "value": "BQGVn2EAP_P3wNGw5EC62KWf66UWqO8_snHTIoT2qOBxqG7slnLMLAbEbPDlPIA_GDDkUxYAgI3DMABtwDiB8wLrJ10OmjgNuLCVeBvYcA13VYsryydjl5WL6XUbH17SQ7dZEDPsdNDdFazAnSNivsVIYoytJB61bkFAajDkmaTKOlYUKy0XA5si2Xhmew-kWen8pVSazgQKcNRxgtbIJdQD_B_zzUMMSn4aMS1Nj6B_9D5pYnh8jUo78yk-jc2svuYmYqkRFUv5TCSnW08hiXdY-OQ6X-9o1s6OOAzvvdy2M4m781O0uQxVPcwDYDiRL2P3vnIDttkEtxbPgBqEhHkAHY9DOQAAAAGkzbnBAA"
     },
     "OWNER_ID": {
       "description": "Fill Here Your Owner User Id",
