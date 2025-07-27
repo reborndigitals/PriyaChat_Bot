@@ -9,7 +9,7 @@ API_ID = "10284859"
 API_HASH = "b0ad58eb8b845ba0003e0d9ce5fc2196"
 # --------------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", "7956556231:AAEgPQOQsvTqpFV5I6BuFBCcPn-z_RGaKgc")
-STRING1 = getenv("STRING_SESSION", "BQB6w5MAlZzy78qKuEUzApUyMzAFuo9Hrl-2q2JbFm-mqMkpefh1n6WiIsAzjM4rZsMA1Vk8SJtDntcmbaTm2ktjzzzIUs6a8PBg8I-bYM35HJ3fNQWJgshoBXvNz9ttETNdfBuBhX7UPcJMjmiJoftuTFwnBroShOGHMuI-gQ-TDxEBQkhKDE0kErrJN8bKtVWr91DhbS97o6I_dPtb-MxPJdsiMpDD4dXhJePKXd_QDlIIr8sqLZ4P7pInti5GPeZuDF9QeGxe43mQwD_ommPiVkMIZltjEN46UfJJ4IxOfcZdgKgEbl4cPOYRbKiyTqh6KGC-U19AcaSLCGkk7q4Nd2uN9gAAAAHcYK2wAQ")
+STRING1 = getenv("STRING_SESSION", "BQB6w5MAYfocT04CIcHAV1UXuiIrkLTPuXthhcvLBFBylZhq58gJOUAZ04IVCbc9KaE_Nz_qqW5-xE1uwpFp7T45xfXBZGHLYVrxWxKUn17iG1XyEWTS03wEkzOZwCssHhx46qmarl8MSq2cIFv4fEGCe2qLvRoxkKtF3VZf-yAWaqQjybI8037SeoS72QDR5DjvVMzaEXbNCdy4mpgZ4maUDjgd-1Hftwb4HvEMwkjoZrggIPlJU7MrzbTGcXKNbQvKE0PK1MG7gubjnjNx6kWgfR2_IH23Dn5swG1b6GrUK3ILfYh961m_aFWyHOoMcgAJe48pG9wRfkjmq5ryQMmZTeOA2gAAAAHgIzFgAQ")
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://ghosttbatt:Ghost2021@ghosttbatt.ocbirts.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = int(getenv("OWNER_ID", "1281282633"))
 SUPPORT_GRP = "HeartBeat_Fam"
