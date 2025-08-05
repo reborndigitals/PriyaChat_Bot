@@ -1,3 +1,4 @@
+from heartbeat import heartbeat 
 import sys
 import asyncio
 import importlib
@@ -83,5 +84,6 @@ def run_flask():
 if __name__ == "__main__":
     flask_thread = threading.Thread(target=run_flask)
     flask_thread.start()
+    heartbeat()
     asyncio.get_event_loop().run_until_complete(anony_boot())
     LOGGER.info("Stopping ANJALI Bot...")
